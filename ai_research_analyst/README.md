@@ -116,7 +116,7 @@ ollama pull llama3.2
 
 ### Step 2 — Clone the repository
 ```bash
-git clone https://github.com/your-username/ai-research-analyst.git
+git clone https://github.com/Vijjucpu/ai-research-analyst
 cd ai-research-analyst
 ```
 
