@@ -89,14 +89,16 @@ Score Router
               Pushover Notification Sent
 ```
 
-### Slide 1 — architecture
-![Architecture](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/architecture.png)
+### Slide 1 — Full Pipeline Architecture
+![Architecture](./screenshots/architecture.png)
 
-### Slide 2 — optimizer loop
-![Optimizer Loop](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/optimizer_loop.png)
-### Slide 3 — langraph
-![LangGraph](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/langgraph.png)
+### Slide 2 — Optimizer Loop
+![Optimizer Loop](./screenshots/optimizer_loop.png)
 
+### Slide 3 — LangGraph Compiled Graph
+![LangGraph](./screenshots/langgraph.png)
+
+> 💡 **How to add slides:** Save the 3 architecture images from your presentation into a `screenshots/` folder inside your project, name them `architecture.png`, `optimizer_loop.png`, and `langgraph.png`.
 
 ---
 
@@ -182,20 +184,22 @@ python main.py cli "Impact of AI on healthcare in 2025"
 | Pushover Notifications | https://pushover.net |
 | LangSmith Tracing | https://smith.langchain.com |
 
-## 8. 📸 Output Screenshots
+## 8. 📸 Screenshots
 
+> Save your screenshots in a `screenshots/` folder and update paths below.
 
 **Dashboard UI:**
 
-![dashboard](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
 
 **Research Running — Live Log:**
 
-![live_log](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/live_log.png)
+![Live Log](./screenshots/live_log.png)
 
 **Final Report Output:**
 
-![report_output](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/report_output.png)
+![Report](./screenshots/report_output.png)
+
 ---
 
 ## 9. ⚠️ Problems Faced and Solutions
