@@ -90,13 +90,13 @@ Score Router
 ```
 
 ### Slide 1 — architecture
-![Architecture](./screenshots/architecture.png)
+![Architecture](../screenshots/architecture.png)
 
 ### Slide 2 — optimizer loop
-![Optimizer Loop](./screenshots/optimizer_loop.png)
+![Optimizer Loop](../screenshots/optimizer_loop.png)
 
 ### Slide 3 — langraph
-![LangGraph](./screenshots/langgraph.png)
+![LangGraph](../screenshots/langgraph.png)
 
 
 ---
@@ -183,20 +183,20 @@ python main.py cli "Impact of AI on healthcare in 2025"
 | Pushover Notifications | https://pushover.net |
 | LangSmith Tracing | https://smith.langchain.com |
 
-## 8. 📸 Screenshots
+## 8. 📸 Output Screenshots
 
 
 **Dashboard UI:**
 
-![dashboard](./screenshots/dashboard.png)
+![dashboard](../screenshots/dashboard.png)
 
 **Research Running — Live Log:**
 
-![live_log](./screenshots/live_log.png)
+![live_log](../screenshots/live_log.png)
 
 **Final Report Output:**
 
-![report_output](./screenshots/report_output.png)
+![report_output](../screenshots/report_output.png)
 
 ---
 
