@@ -60,7 +60,6 @@ A **7-agent AI pipeline** built with LangGraph and Ollama that researches any to
 
 ---
 
-## 5. 🏗️ Architecture
 
 ### Agent Pipeline Architecture
 
@@ -87,7 +86,19 @@ Score Router
 └── score >= 6 → Report Writer (Markdown + citations)
                       ↓
               Pushover Notification Sent
+
 ```
+## 5. 🏗️ Architecture
+
+### architecture
+![Architecture](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/architecture.png)
+
+###  optimizer loop
+![Optimizer Loop](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/optimizer_loop.png)
+###  langraph
+![LangGraph](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/langgraph.png)
+
+
 ---
 
 ## 6. 🚀 How to Run Locally
@@ -250,6 +261,25 @@ OLLAMA_MODEL=phi3
 **Cause:** `langchain-openai` requires a different `langchain-core` version.
 
 **Solution:** This is just a warning, not a blocking error. The project does not use `langchain-openai` so safely ignore it. The app runs fine.
+
+
+## 10.  🔄 n8n Workflow
+
+This workflow replicates the entire AI Research Analyst pipeline visually using n8n — a free open-source automation tool. It connects all 7 agents together and runs the full research pipeline automatically when triggered via a webhook.
+
+### n8n Workflow — Full Pipeline Execution
+![n8n Workflow](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/n8n_workflow.png)
+
+### How it works:
+- **Webhook Trigger** receives the research query
+- **Planner Agent** breaks it into 3 sub-topics using Ollama
+- **Search Agent A, B, C** research each topic in parallel
+- **Merge Results** combines all 3 research outputs
+- **Summarizer Agent** creates one cohesive summary
+- **Critic Agent** scores the quality from 0-10
+- **Score >= 6?** routes to Report Writer or Optimizer
+- **Report Writer** generates the final Markdown report
+- **Send Response** returns the report via webhook
 
 ---
 
