@@ -95,7 +95,7 @@ Score Router
 
 ###  optimizer loop
 ![Optimizer Loop](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/optimizer_loop.png)
-###  langraph
+###  langgraph
 ![LangGraph](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/langgraph.png)
 
 
