@@ -88,16 +88,6 @@ Score Router
                       ↓
               Pushover Notification Sent
 ```
-
-### Slide 1 — architecture
-![Architecture](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/architecture.png)
-
-### Slide 2 — optimizer loop
-![Optimizer Loop](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/optimizer_loop.png)
-### Slide 3 — langraph
-![LangGraph](https://raw.githubusercontent.com/Vijjucpu/ai-research-analyst/main/ai_research_analyst/screenshots/langgraph.png)
-
-
 ---
 
 ## 6. 🚀 How to Run Locally
